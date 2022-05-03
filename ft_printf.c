@@ -10,7 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
+
+/* This function takes a format string and a number of arguments from ft_type_char.
+ * It uses count to store the total number of characters printed.
+ * First if checks if a the character is a format specifier by using '%' 
+ * and anything that is not null and then passes the char to ft_type_char
+ * which then uses the appropriate function. Second if is used if the character
+ * is not a format specifier and uses ft_printf_char to print the string.
+ * 
 
 int	ft_printf(const char *format, ...)
 {
