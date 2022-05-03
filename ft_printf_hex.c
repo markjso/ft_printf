@@ -18,7 +18,7 @@
  * (upper or lower case depending on base) of the % of sixteen at each call. 
  * We then return the count to ft_printf.
  *
- * Lastly we use the function ft_puthex to write the hexadecimal version of num.
+ * Lastly we use the function ft_puthex to write the hexadecimal version of num.*/
 
 int	ft_printf_hex(size_t num, char *base)
 {
