@@ -10,7 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
+
+/* This function is called when ft_printf finds a format specifier.
+ * If c matches the format specifier, it calls the corresponding function
+ * 
 
 int	ft_type_char(const char c, va_list pf)
 {
