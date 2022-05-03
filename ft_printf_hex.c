@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-/* This function takes a number and the char representing the format type (x or X)
+/* This function takes a number and the char representing the format specifier (x or X)
  * We check to see if num is >= sixteen and recursively call ft_printf_hex until
  * num is 0. We use ft_printf_char to write the relavant hexadecimal character 
  * (upper or lower case depending on base) of the % of sixteen at each call. 
