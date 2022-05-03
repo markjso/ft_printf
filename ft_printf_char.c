@@ -10,7 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
+
+/* This function prints a single character using the ft_putchar_fd function from 
+ * libft (which uses the write function) and then returns one to be added to the 
+ * total of characters printed by ft_printf. */
 
 int	ft_printf_char(char c)
 {
