@@ -20,7 +20,7 @@
  * If num is not negative then n is equal to it (as an unsigned int). Then if n is greater 
  * than or equal to 10 we recursively call ft_printf_number until n becomes a single digit. 
  * We then add '0' to it to make it a character value and use ft_printf_char to write it. 
- * We then return the count to ft_printf.
+ * We then return the count to ft_printf.*/
  
 int	ft_printf_number(int num)
 {
