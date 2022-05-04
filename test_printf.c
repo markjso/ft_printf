@@ -1,5 +1,9 @@
-#include "printf.h"
+#include "ft_printf.h"
 #include <stdio.h>
+
+/* This is a basic tester to test the ft_printf.c function that you have built. To make it
+ * run you will need to gcc -O this file with the files you have used in your printf function.
+ * The returned values should match the actual printf values if your function is correct.*/
 
 int main(void)
 {
