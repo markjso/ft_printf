@@ -22,7 +22,7 @@ int		ft_printf_number(int num);
 int		ft_printf_hex(size_t num, char *base);
 int		ft_puthex(unsigned int num, char *base);
 int		ft_printf(const char *format, ...);
-int		ft_type_char(const char c, va_list pf);
+int		ft_type_char(const char c, va_list args);
 int		ft_printf_ptr(void *ptr);
 int		ft_printf_u(unsigned int num);
 
