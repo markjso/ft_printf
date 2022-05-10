@@ -14,8 +14,8 @@
 /* This function uses the ft_printf_hex function for the format specifier p
  * to print a pointer in hexadecimal format. We use ft_putstr_fd to write 
  * "0x" as it is hexadecimal, and increment count by two. We then use our ft_print
- * _hex function and use the lowercase hexadecimal as our base to print ptr. We then 
- * return count to ft_printf.*/
+ * _hex function and use the lowercase hexadecimal as our base to print the value of the  
+ * address of the ptr. We then return count to ft_printf.*/
 
 int	ft_printf_ptr(void *ptr)
 {
