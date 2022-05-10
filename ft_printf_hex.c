@@ -23,7 +23,7 @@
  * 1221/16 = 76 with a remainder of 5. The hex value of 5 is 5.
  * 76/16 = 4 with a remainder of 12. The hex value of 12 is C.
  * 4/16 = 0 with a remainder of 4. The hex value of 4 is 4.
- * The hex value of 1220 is therefore 4C5 (reversed because it is nested).
+ * The hex value of 1221 is therefore 4C5 (reversed because it is nested).
 
 int	ft_printf_hex(size_t num, char *base)
 {
