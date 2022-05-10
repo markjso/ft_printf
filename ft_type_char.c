@@ -13,7 +13,7 @@
 #include "ft_printf.h"
 
 /* This function is called when ft_printf finds a format specifier. It uses
- * the va_list pf to store the variables for each function. If c matches the format 
+ * the va_list args to store the variables for each function. If c matches the format 
  * specifier in ft_printf, it uses the corresponding function to print and return
  * the number of characters to ft_printf*/
 
