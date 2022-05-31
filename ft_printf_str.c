@@ -13,7 +13,7 @@
 #include "ft_printf.h"
 
 /* This function prints a string using ft_printf_char (incrementing with i) if the string 
- * is not null or (null) using ft_putstr_fd if the string is null. It then returns the count
+ * is not null or using ft_putstr_fd if the string is null. It then returns the count
  * of i to ft_printf.*/
 
 int	ft_printf_str(char *s)
