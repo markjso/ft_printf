@@ -26,7 +26,7 @@ int	ft_printf_str(char *s)
 		ft_putstr_fd("(null)", 1);
 		return (6);
 	}
-	while (s[i] != '\0')
+	while (s[i])
 	{
 		ft_printf_char(s[i]);
 		i++;
