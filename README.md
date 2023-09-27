@@ -1,7 +1,7 @@
 # ft_printf
 The C library function int printf(const char *format, ...) sends formatted output to stdout.  
 
-<b>Parameters<\b>
+#### Parameters
 
 format: The format argument is a string containing C language conversion specifications. The conversion specification specifies the notation, alignment, significant digits, field width, and other aspects of the output format. To represent non-printing characters, such as newlines and tabs, the format string may contain escape characters.  
 
